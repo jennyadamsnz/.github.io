@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="Responsive Website">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contact</title>
+		<link rel=icon href="images/favicon.png">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body id="top">
+		<header>
+			<a href="index.html"><img class="logo" src="images/logo.png" alt="logo"></a><!--
+  			--><div id="hamburger_menu" class="hamburger_menu hamburgeranimation">
+			    <div></div>
+			    <div></div>
+			    <div></div>
+			    <div></div>
+	  		</div><!--
+  			--><div id="hamburger_menu-expand" class="menu"><!--
+  				--><nav><!--
+	  				--><ul>
+						<li><a href="index.html">HOME</a></li><!--
+	  					--><li><a href="faq.html">FAQ</a></li><!--
+	  					--><li><a href="about.html">ABOUT</a></li><!--
+	  					--><li><a class="highlighted_link" href="contact.html">CONTACT</a></li>
+					</ul>
+					<div class="minifooter">
+						<div>
+							<a href="#"><img class="facebook_icon" src="images/facebook_icon.png" alt="facebook icon"></a><!--
+			 				--><a href="#"><img class="instagram_icon" src="images/instagram_icon.png" alt="instagram icon"></a><!--
+			 				--><a href="#"><img class="tripadvisor_icon" src="images/tripadvisor_icon.png" alt="tripadvisor icon"></a>
+			 			</div>	
+					</div>	
+				</nav>
+			</div>	
+		</header>
+		<div class="divider"></div>
+		<div id="blurbackground">
+			<main id="blurhere" class="noblur">
+				<div id="greyhere" class="nogrey">
+					<div class="content" id="mark">
+						<div class="group">
+							<h2 id="hide" class="title">Contact Us</h2>
+							<form method="post" action="message_sent.html" id="contact-form">
+								<label>
+									<input id="name" name="name" type="text" placeholder="Name" required minlength="3">
+									<span id="name-error"></span>
+								</label>
+								
+								<label>
+									<input id="email" name="email" type="email" placeholder="Email" required>
+									<span id="email-error"></span>
+								</label>
+								<label>
+									<input id="subject" name="subject" type="text" placeholder="Subject" required>
+									<span id="subject-error"></span>
+								</label>
+								<label>
+									<textarea id="message" name="message" placeholder="Message" required minlength="10" maxlength="200" rows="5" cols="50"></textarea>
+									<span id="message-error"></span>
+								</label>	
+								<div class="button_div"><button type="submit" class="send_button" >SEND</button></div>
+							</form>
+						</div>
+					</div>		
+				</div>	
+			</main>
+		</div>	
+		<footer>
+			<div>
+				<a href="#"><img class="facebook_icon" src="images/facebook_icon.png" alt="facebook icon"></a><!--
+ 				--><a href="#"><img class="instagram_icon" src="images/instagram_icon.png" alt="instagram icon"></a><!--
+ 				--><a href="#"><img class="tripadvisor_icon" src="images/tripadvisor_icon.png" alt="tripadvisor icon"></a>
+			</div>	
+		</footer>
+		<script type="text/javascript" src="js/script.js"></script>
+		<script type="text/javascript">
+		 	//when DOM is loaded
+			document.addEventListener("DOMContentLoaded", function(){
+
+			// find the form
+			var theForm = document.querySelector('#contact-form');	
+
+			// call form validation and pass the form to it
+			formValidation(theForm);
+			});
+		</script>	
+	</body>
+</html>
