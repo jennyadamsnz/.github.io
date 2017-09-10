@@ -1,0 +1,49 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700italic";
+@import "https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800&subset=hebrew";
+.material-icons {
+  font-size: 32px;
+}
+@media (max-height: 820px) {
+  .acp-toolbar-btn .material-icons {
+    font-size: 24px;
+  }
+}
+@media (max-height: 680px) {
+  .acp-toolbar-btn .material-icons {
+    font-size: 20px;
+  }
+}
+
+body.acp-readable * {
+  font-family: Arial, sans-serif !important;
+}
+body.acp-readable .material-icons {
+  font-family: 'Material Icons' !important;
+}
+
+body.acp-focus-blue button:focus,
+body.acp-focus-blue input[type="button"]:focus,
+body.acp-focus-blue input[type="reset"]:focus,
+body.acp-focus-blue input[type="submit"]:focus,
+body.acp-focus-blue input[type="text"]:focus,
+body.acp-focus-blue input[type="email"]:focus,
+body.acp-focus-blue input[type="url"]:focus,
+body.acp-focus-blue input[type="password"]:focus,
+body.acp-focus-blue input[type="search"]:focus,
+body.acp-focus-blue input[type="tel"]:focus,
+body.acp-focus-blue input[type="number"]:focus,
+body.acp-focus-blue textarea:focus,
+body.acp-focus-blue *:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+body.acp-focus-red button:focus, body.acp-focus-red input[type="button"]:focus, body.acp-focus-red input[type="reset"]:focus, body.acp-focus-red input[type="submit"]:focus,
+body.acp-focus-red input[type="text"]:focus, body.acp-focus-red input[type="email"]:focus, body.acp-focus-red input[type="url"]:focus, body.acp-focus-red input[type="password"]:focus, body.acp-focus-red input[type="search"]:focus, body.acp-focus-red input[type="tel"]:focus, body.acp-focus-red input[type="number"]:focus, body.acp-focus-red textarea:focus,
+body.acp-focus-red *:focus {
+  outline: thin dotted;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}

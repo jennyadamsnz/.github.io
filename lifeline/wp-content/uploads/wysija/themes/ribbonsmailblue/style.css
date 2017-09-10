@@ -1,0 +1,54 @@
+/*
+Theme Name: Ribbons Mail - blue & red
+Description: One of 4 different colours of the same crispy theme.
+Author: Gifky
+Author URI: http://themeforest.net/user/Gifky
+Author Email: gifky@gifky.com
+Tags: grey, red, blue
+
+Note: the plugin won't recognize any additional styles if you add them. The styles below offer all the possibilities of Wysija.
+
+*/
+html {
+    background-color: #444444; /* cannot be transparent and will default to white */
+}
+
+header {
+    background-color: transparent; /* can be transparent */
+}
+body {
+    color:#111111;
+    font-family: "Arial";
+    font-size: 12px;
+    background-color: #eeeeee; /* can be transparent */
+}
+footer {
+    background-color: transparent; /* can be transparent */
+}
+h1 {
+    color: #0a567e;
+    font-family: Arial;
+    font-size: 28px;
+}
+h2 {
+    color: #0a567e;
+    font-family: Arial;
+    font-size: 18px;
+}
+h3 {
+    color: #0a567e;
+    font-family: Arial;
+    font-size: 16px;
+}
+a {
+    color: #bf1626;
+    text-decoration:underline;
+}
+unsubscribe {
+    color:#eeeeee;
+}
+viewbrowser {
+	font-family:'Arial';
+	font-size:11px;
+	color:#eeeeee;
+}

@@ -1,0 +1,761 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-10-05 02:44+0300\n"
+"PO-Revision-Date: 2016-10-05 03:11+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/acp-lib.php:70 inc/acp-panel.php:83
+msgid "Semantics"
+msgstr "סמנטיקה"
+
+#: inc/acp-lib.php:73 inc/acp-panel.php:91
+msgid "Visual"
+msgstr "ויזואלי"
+
+#: inc/acp-lib.php:76 inc/acp-panel.php:99
+msgid "Toolbar"
+msgstr "סרגל כלים"
+
+#: inc/acp-lib.php:79 inc/acp-panel.php:107 inc/acp_skiplinks.php:8
+msgid "Skiplinks"
+msgstr "קישורי דילוג"
+
+#: inc/acp-lib.php:86
+msgid "Opening WordPress sites to people with disabilites"
+msgstr ""
+
+#: inc/acp-lib.php:93
+msgid "Upgrade to PRO for only"
+msgstr "שדרג/י ל-PRO עבור"
+
+#: inc/acp-lib.php:95
+msgid "And enjoy the following extra options:"
+msgstr "ותוכל/י ליהנות מהאפשרויות הבאות:"
+
+#: inc/acp-lib.php:97
+msgid "5 Different Toolbar Skins!"
+msgstr "5 סגנונות עיצוב שונים לסרגל הכלים!"
+
+#: inc/acp-lib.php:98
+msgid "3 Different Icons for the Toolbar Main Icon"
+msgstr "3 אייקונים לבחירה עבור הלחצן הראשי של סרגל הכלים"
+
+#: inc/acp-lib.php:99
+msgid "No Author Link"
+msgstr "הסרת קישור יוצר התוסף"
+
+#: inc/acp-lib.php:101
+msgid "3 Different Skiplinks skins!"
+msgstr "3 סגנונות עיצוב שונים לקישורי הדילוג"
+
+#: inc/acp-lib.php:103
+msgid "Unlimited Replacement Tags"
+msgstr "החלפת תגי HTML ללא הגבלה!"
+
+#: inc/acp-lib.php:104
+msgid "Full Customization of Contrast Colors"
+msgstr "התאמה מלאה של צבעי הניגודיות (כהה ובהיר)"
+
+#: inc/acp-lib.php:105
+msgid "Custom Color for the Focus Outline"
+msgstr "צבע מותאם אישית עבור אפקט ה-Outline שלחצנים מקבלים במצב פוקוס"
+
+#: inc/acp-lib.php:106
+msgid "Full Control on which  objects get Tabindex"
+msgstr "שליטה מלאה על האוביקטים שמקבלים Tabindex (הוספה והסרה)"
+
+#: inc/acp-lib.php:107
+msgid "Accessibility Checker Tool (beta)"
+msgstr "כלי מתקדם לבדיקת נגישות האתר (בטא)"
+
+#: inc/acp-lib.php:122
+msgid "Want more?"
+msgstr "רוצה עוד?"
+
+#: inc/acp-lib.php:124 inc/acp-panel.php:778 inc/acp-panel.php:1087
+#: inc/acp-panel.php:1343
+msgid "Upgrade to PRO"
+msgstr "שדרג/י ל-PRO"
+
+#: inc/acp-panel.php:402
+msgid "Attributes"
+msgstr "תכונות"
+
+#: inc/acp-panel.php:404
+msgid "LANG Attribute"
+msgstr "תכונת השפה"
+
+#: inc/acp-panel.php:405
+msgid ""
+"At the beginning of each HTML document there is an opening tag that looks like "
+"this: &lt;html&gt;, which surrounds the entire document. this tag need to have a "
+"language attribute with the document language code as a value. the option below "
+"will force the &lt;html&gt; tag to have the language attribute with the right "
+"value."
+msgstr ""
+"בתחילת כל עמוד ישנה תגית HTML הנקראת &lt;html&gt; שמקיפה את המסמך כולו. תגית זו "
+"צריכה לקבל תכונת שפה עם קוד השפה הנוכחית כערך (למשל עבור עברית הערך הוא: he). "
+"תיבת הסימון שלהלן מאפשרת לך להוסיף את תכונת השפה עם הערך הנכון באופן התקני ביותר."
+
+#: inc/acp-panel.php:408
+msgid "Add Language Attribute to the &lt;html&gt; tag"
+msgstr "הוספת תכונת השפה לתגית &lt;html&gt;"
+
+#: inc/acp-panel.php:427
+msgid "ALT Attribute"
+msgstr "תכונת הטקסט החלופי"
+
+#: inc/acp-panel.php:430
+msgid "Add empty Alt attribute to images without an Alt attribute"
+msgstr ""
+"הוספת תכונת ALT (טקסט חלופי) ללא ערך (באופן התקני) עבור תמונות שאין להן תכונה זו "
+"כלל"
+
+#: inc/acp-panel.php:462
+msgid "TITLE Attribute"
+msgstr "תכונת הכותרת"
+
+#: inc/acp-panel.php:463
+msgid "The 'title' attribute specifies extra information about an element"
+msgstr "תכונת הכותרת (TITLE) מאפשרת להוסיף מידע נוסף אודות אוביקטים"
+
+#: inc/acp-panel.php:464
+msgid "read more"
+msgstr "קרא עוד"
+
+#: inc/acp-panel.php:465
+msgid ""
+"apparently, some popular screen readers ignore that attribute, so to pass the "
+"extra information that the 'title' attribute holds we can use the 'aria-label' "
+"attribute."
+msgstr ""
+"מסתבר שכמה מקוראי המסך הפופולריים יותר מתעלמים מתכונה זו, לכן כדי להעביר את "
+"המידע הנוסף שמגיע בתכונת הכותרת אנו נשתמש לרוב בתכונה aria‪-‬label."
+
+#: inc/acp-panel.php:466
+msgid ""
+"At the option below you can determine weather to replace the 'title' attribute "
+"with an 'aria-label' attribute, or to add extra 'aria-label' attribute with the "
+"value of the 'title' attribute"
+msgstr ""
+"באפשרות שלהלן ניתן לקבוע האם להחליף את כל תכונות הכותרת (TITLE) עם תכונת aria‪-‬"
+"label, או להוסיף תכונת aria‪-‬label נוספת לאוביקט עם הערך שמקבלת תכונת הכותרת."
+
+#: inc/acp-panel.php:467
+msgid "Title Attribte Behavior"
+msgstr "התנהגות עם תכונת הכותרת (TITLE)"
+
+#: inc/acp-panel.php:469 inc/acp-panel.php:508 inc/acp-panel.php:1207
+#: inc/acp-panel.php:1269 inc/acp-panel.php:1331
+msgid "-- None --"
+msgstr "— ללא —"
+
+#: inc/acp-panel.php:470
+msgid ""
+"Replace the 'title' attribute with 'aria-label' attribute (value will remain the "
+"same)"
+msgstr "החלפת תכונת הכותרת (TITLE) בתכונת aria‪-‬label (הערך יישאר אותו הדבר)"
+
+#: inc/acp-panel.php:471
+msgid "Add extra 'aria-label' attribute to all objects that have 'title' attribute"
+msgstr ""
+"הוספת תכונת aria‪-‬label לכל האוביקטים שיש להם את תכונת הכותרת (TITLE) עם הערך של "
+"תכונת הכותרת."
+
+#: inc/acp-panel.php:504
+msgid "Focus"
+msgstr "פוקוס"
+
+#: inc/acp-panel.php:506
+msgid "Add outline to all necessary objects when they're in focus"
+msgstr "הוספת אפקט תוחם לכל האוביקטים הרלוונטיים מצב פוקוס"
+
+#: inc/acp-panel.php:509
+msgid "Red Outline"
+msgstr "פוקוס אדום"
+
+#: inc/acp-panel.php:510
+msgid "Blue Outline"
+msgstr "פוקוס כחול"
+
+#: inc/acp-panel.php:513
+msgid "Custom Color (PRO Only)"
+msgstr "צבע מותאם אישית (עבור PRO בלבד)"
+
+#: inc/acp-panel.php:532 inc/acp-toolbar.php:222
+msgid "Links"
+msgstr "לחצנים"
+
+#: inc/acp-panel.php:536
+msgid "Add underline to all links in focus & hover mode"
+msgstr "הוספת קו תחתון לכל הלחצנים במצב פוקוס ובמצב מעבר הסמן עליהם (hover)"
+
+#: inc/acp-panel.php:553
+msgid "TABINDEX Attribute"
+msgstr "תכונת Tabindex"
+
+#: inc/acp-panel.php:557
+msgid "Remove unnecessary tabindex attributes"
+msgstr "הסרת כל המקומות בהן קיימת תכונות Tabindex שאין בה צורך"
+
+#: inc/acp-panel.php:557
+msgid "Want more control on the Tabindex?"
+msgstr "רוצה לשלוט עוד על תכונת ה-Tabindex?"
+
+#: inc/acp-panel.php:575 inc/acp-panel.php:1005
+msgid "General"
+msgstr "כללי"
+
+#: inc/acp-panel.php:576
+msgid ""
+"To see the Toolbar on your WordPress site you must first activate it. there are "
+"two ways to activate the toolbar, the manual way & the auto way."
+msgstr ""
+"על מנת לראות את סרגל הכלים בחזית האתר יש צורך תחילה להפעיל את סרגל הכלים. ישנן "
+"שתי דרכים להפעלת סרגל הכלים, הדרך הידנית והדרך האוטומטית."
+
+#: inc/acp-panel.php:577
+msgid "Toolbar Manual Activation"
+msgstr "הפעלת סרגל הכלים בדרך הידנית"
+
+#: inc/acp-panel.php:579
+msgid ""
+"This is the recommended way to activate the toolbar but it is also an advanced "
+"way so remember: Do not mess with it if you not familiar with WordPress theme "
+"files."
+msgstr ""
+"זוהי הדרך המומלצת יותר להפעיל את סרגל הכלים, אם כי זו גם דרך מתקדמת אז נא לא "
+"להשתמש בה במידה ואינך בקיא/ה בקבצי תבניות וורדפרס."
+
+#: inc/acp-panel.php:580
+msgid "To activate the toolbar manually please follow the instructions below:"
+msgstr "כדי להפעיל את סרגל הכלים בדרך הידנית יש לפעול על פי ההנחיות שלהלן:"
+
+#: inc/acp-panel.php:582
+msgid "Activate the Manual Toolbar checkbox"
+msgstr "סימון תיבת הסימון שלהלן להפעלה ידנית של סרגל הכלים"
+
+#: inc/acp-panel.php:583 inc/acp-panel.php:1016
+msgid "Open the file 'header.php' from your theme folder"
+msgstr "פתיחת הקובץ ‪‘‬header‪.‬php‪’‬ או כל קובץ אחר שבו נמצאת התגית &lt;body&gt;"
+
+#: inc/acp-panel.php:584 inc/acp-panel.php:1017
+msgid ""
+"Locate the opening body tag (it need to look like this: <code>&lt;body&gt;</"
+"code>)"
+msgstr ""
+"מציאת תגית ה-body במסמך (התגית אמורה להיראות כך: <code>&lt;body&gt;</code>)"
+
+#: inc/acp-panel.php:585
+msgid ""
+"Insert the next code right after the opening body tag (if you using also the "
+"skiplinks please add this before the skiplinks):"
+msgstr ""
+"הוספת הקוד שלהלן מיד לאחר פתיחת תגית ה-body (אם הנך מפעיל/ה את קישורי הדילוג "
+"בהפעלה ידנית, אנא דאג/י להוסיף קוד זה לפני הקוד של קישורי הדילוג):"
+
+#: inc/acp-panel.php:591
+msgid "Enable the Accessibility Toolbar Manually"
+msgstr "הפעלה ידנית של סרגל כלי הנגישות"
+
+#: inc/acp-panel.php:593
+msgid "The Manual Activation is disabled because the auto activation is active."
+msgstr "ההפעלה הידנית של סרגל הכלים חסומה מכיוון שההפעלה האוטומטית פעילה."
+
+#: inc/acp-panel.php:612
+msgid "Auto Activation"
+msgstr "הפעלת סרגל הכלים בדרך האוטומטית"
+
+#: inc/acp-panel.php:614
+msgid ""
+"In the Automatic Activation the toolbar will be loaded with Ajax calls. all you "
+"need to do is to check the next checkbox."
+msgstr ""
+"בהפעלה האוטומטית סרגל כלי הנגישות ייטען באמצעות קריאת Ajax. כל שעליך לעשות הוא "
+"לסמן את תיבת הסימון הבאה."
+
+#: inc/acp-panel.php:617
+msgid "Enable the Accessibility Toolbar with Ajax call"
+msgstr "הפעלה אוטומטית של סרגל כלי הנגישות"
+
+#: inc/acp-panel.php:619
+msgid "The Auto Activation is disabled because the manual activation is active."
+msgstr "ההפעלה האוטומטית של סרגל הכלים חסומה מכיוון שההפעלה הידנית פעילה."
+
+#: inc/acp-panel.php:637
+msgid "Additional Settings"
+msgstr "הגדרות נוספות"
+
+#: inc/acp-panel.php:641
+msgid "Disable toolbar for mobile users"
+msgstr "ביטול סרגל הכלים למשתמשי סמארטפונים וטאבלטים"
+
+#: inc/acp-panel.php:687 inc/acp-panel.php:1079
+msgid "Customization"
+msgstr "התאמה אישית"
+
+#: inc/acp-panel.php:687 inc/acp-panel.php:1127 inc/acp-panel.php:1167
+msgid "NEW"
+msgstr "חדש"
+
+#: inc/acp-panel.php:689
+msgid "Toolbar style"
+msgstr "סגנון עיצוב סרגל הכלים"
+
+#: inc/acp-panel.php:691
+msgid "Solid"
+msgstr ""
+
+#: inc/acp-panel.php:692
+msgid "Flat"
+msgstr ""
+
+#: inc/acp-panel.php:693
+msgid "Minimal (PRO Only)"
+msgstr ""
+
+#: inc/acp-panel.php:694
+msgid "Rounded (PRO Only)"
+msgstr ""
+
+#: inc/acp-panel.php:695
+msgid "Fancy (PRO Only)"
+msgstr ""
+
+#: inc/acp-panel.php:725
+msgid "Toolbar Side"
+msgstr "צד סרגל הכלים"
+
+#: inc/acp-panel.php:727 inc/acp-panel.php:1083
+msgid "Left"
+msgstr "שמאל"
+
+#: inc/acp-panel.php:728 inc/acp-panel.php:1084
+msgid "Right"
+msgstr "ימין"
+
+#: inc/acp-panel.php:754
+msgid "Icon Size"
+msgstr "גודל הלחצן הראשי של סרגל הכלים"
+
+#: inc/acp-panel.php:756
+msgid "Large"
+msgstr "גדול"
+
+#: inc/acp-panel.php:757
+msgid "Small"
+msgstr "קטן"
+
+#: inc/acp-panel.php:777
+msgid "Icon Position from top (in pixels, default is 30)"
+msgstr "מיקום הלחצן הראשי של סרגל הכלים מלמעלה (בפיקסלים, ברירת מחדל היא 30)"
+
+#: inc/acp-panel.php:778
+msgid "Want to change the icon to something else?"
+msgstr "רוצה לשנות את האייקון של הלחצן הראשי למשהו אחר?"
+
+#: inc/acp-panel.php:778
+msgid "and get the ability to choose from 3 different icons!"
+msgstr "וקבל את האפשרות לבחור מתוך 3 אייקונים שונים!"
+
+#: inc/acp-panel.php:796
+msgid "Additional Buttons"
+msgstr "לחצנים נוספים"
+
+#: inc/acp-panel.php:798
+msgid ""
+"Add additional button for Accessibility Declaration (leave blank to disable)"
+msgstr "הוספת לחצן נוסף עבור הצהרת נגישות (לביטול נא להשאיר ריק)"
+
+#: inc/acp-panel.php:817
+msgid "Add additional button for Contact page (leave blank to disable)"
+msgstr "הוספת לחצן נוסף עבור השארת משוב (לביטול נא להשאיר ריק)"
+
+#: inc/acp-panel.php:834
+msgid "Buttons Visibility"
+msgstr "הסתרת לחצנים"
+
+#: inc/acp-panel.php:838
+msgid "Hide the buttons that change the font size"
+msgstr "הסתרת הלחצנים שמשנים את גדלי הגופנים"
+
+#: inc/acp-panel.php:860
+msgid "Hide the buttons that change the contrast"
+msgstr "הסתרת הלחצנים שמשנים את ניגודיות הצבעים"
+
+#: inc/acp-panel.php:882
+msgid "Hide the button that add underline to links"
+msgstr "הסתרת הלחצן שמוסיף קו תחתון לקישורים"
+
+#: inc/acp-panel.php:904
+msgid "Hide the button that mark the links"
+msgstr "הסתרת הלחצן שמדגיש קישורים"
+
+#: inc/acp-panel.php:926
+msgid "Hide the button that change the font to readable"
+msgstr "הסתרת הלחצן לשינוי לגופן קריא"
+
+#: inc/acp-panel.php:948
+msgid "Hide the button that disable the animations"
+msgstr "הסתרת הלחצן לביטול אנימציות באתר"
+
+#: inc/acp-panel.php:967
+msgid "Font Size Change Options"
+msgstr "אפשרויות שינוי גדלי הגופנים"
+
+#: inc/acp-panel.php:969
+msgid ""
+"Include additional objects to affect with the font size change options at the "
+"toolbar by adding the object class or id (separate objects with a comma)"
+msgstr ""
+"באפשרות שלהלן ניתן לכלול אוביקטים נוספים שעליהם ישפיעו לחצני שינוי גדלי הגופן. "
+"הוספת האוביקטים מתבצעת באמצעות מזהה ה-CSS של האוביקט, בין אם זה class, או id (נא "
+"להפריד אוביקטים אחד מהשני באמצעות פסיק)."
+
+#: inc/acp-panel.php:988
+msgid ""
+"Exclude objects from the effect of the font size change options at the toolbar "
+"by adding the object class or id (separate objects with a comma)"
+msgstr ""
+"באפשרות שלהלן ניתן להסיר אוביקטים מהשפעת לחצני שינוי גדלי הגופן. הסרת האוביקטים "
+"מתבצעת באמצעות מזהה ה-CSS של האוביקט, בין אם זה class, או id (נא להפריד אוביקטים "
+"אחד מהשני באמצעות פסיק)."
+
+#: inc/acp-panel.php:1006
+msgid ""
+"Skiplinks are buttons that helps navigate through the central regions of the "
+"page using the Tab key."
+msgstr ""
+"קישורי דילוג הם לחצנים העוזרים לנווט בין האזורים הראשיים של העמוד הנוכחי באמצעות "
+"לחצן ה-TAB."
+
+#: inc/acp-panel.php:1007
+msgid ""
+"There are two ways to activate the Skiplinks, the manual way & the auto way."
+msgstr "ישנן שתי דרכים להפעיל את קישורי הדילוג, הדרך הידנית והדרך האוטומטית."
+
+#: inc/acp-panel.php:1008
+msgid "Skiplinks Manual Activation"
+msgstr "הפעלה ידנית של קישורי הדילוג"
+
+#: inc/acp-panel.php:1012
+msgid ""
+"This is the recommended way to activate the Skiplinks but it is also an advanced "
+"way so remember: Do not mess with it if you not familiar with WordPress theme "
+"files."
+msgstr ""
+"זוהי הדרך המומלצת להפעיל את קישורי הדילוג, אך זו גם דרך מתקדמת לכן אין להשתמש בה "
+"במידה ואינך בקיא/ה בקבצי תבניות וורדפרס."
+
+#: inc/acp-panel.php:1013
+msgid "To activate the Skiplinks manually please follow the instructions below:"
+msgstr "להפעלת קישורי הדילוג בדרך הידנית יש לעקוב אחר ההנחיות שלהלן:"
+
+#: inc/acp-panel.php:1015
+msgid "Activate the Manual Skiplinks checkbox"
+msgstr "סימון תיבת הסימון להפעלה ידנית של קישורי הדילוג"
+
+#: inc/acp-panel.php:1018
+msgid ""
+"Insert the next code right after the opening body tag (if you using also the "
+"toolbar please add this after the toolbar):"
+msgstr ""
+"הוספת הקוד שלהלן מיד לאחר פתיחת תגית ה-body (אם הנך מפעיל/ה ידנית גם את סרגל "
+"הכלים מומלץ לוודא שקוד זה מגיע לאחר הקוד של סרגל הכלים):"
+
+#: inc/acp-panel.php:1024
+msgid "Enable the Skiplinks Manually"
+msgstr "הפעלה ידנית של קישורי הדילוג"
+
+#: inc/acp-panel.php:1026
+msgid ""
+"Skiplinks Manual Activation is not available because the Skiplink Auto "
+"Activation is active."
+msgstr "ההפעלה הידנית של קישורי הדילוג חסומה מכיוון שההפעלה האוטומטית פעילה."
+
+#: inc/acp-panel.php:1044
+msgid "Skiplinks Auto Activation"
+msgstr "הפעלה אוטומטית של קישורי הדילוג"
+
+#: inc/acp-panel.php:1048
+msgid ""
+"To activate the skiplinks automatically using Ajax call simply check the "
+"checkbox below."
+msgstr ""
+"על מנת להפעיל את קישורי הדילוג באופן אוטומטי באמצעות קריאת Ajax, כל שעליך לעשות "
+"הוא לסמן את תיבת הסימון שלהלן."
+
+#: inc/acp-panel.php:1051
+msgid "Enable the Auto Skiplinks Activation"
+msgstr "הפעלה אוטומטית של קישורי הדילוג"
+
+#: inc/acp-panel.php:1052
+msgid ""
+"Skiplinks Auto Activation is not available because the Skiplink Manual "
+"Activation is active."
+msgstr "ההפעלה האוטומטית של קישורי הדילוג חסומה מכיוון שההפעלה הידנית פעילה."
+
+#: inc/acp-panel.php:1081
+msgid "Skiplinks Side"
+msgstr "צד קישורי הדילוג"
+
+#: inc/acp-panel.php:1087
+msgid "Want to change the style of the Skiplinks?"
+msgstr "רוצה לשנות את סגנון העיצוב של קישורי הדילוג?"
+
+#: inc/acp-panel.php:1087
+msgid "and get the ability to choose from 3 different skins!"
+msgstr "וקבל/י את היכולת לבחור מתוך 3 סגנונות עיצוב שונים!"
+
+#: inc/acp-panel.php:1105
+msgid "Activate Special Skiplinks for Home Page"
+msgstr "הפעלת קישורי דילוג ייחודיים לעמוד הראשי"
+
+#: inc/acp-panel.php:1106
+msgid "Customize special Skiplinks for Home page."
+msgstr "הפעלת קישורי דילוג ייחודיים לעמוד הראשי"
+
+#: inc/acp-panel.php:1109
+msgid "Activate Home Page Skiplinks"
+msgstr "הפעלת קישורי דילוג ייחודיים לעמוד הראשי"
+
+#: inc/acp-panel.php:1127
+msgid "Logo Semantics"
+msgstr "סמנטיקת לוגו"
+
+#: inc/acp-panel.php:1128
+msgid ""
+"If the logo of your website is clickable and leads to the Home page, you should "
+"inform the user to where this link will lead him."
+msgstr ""
+"אם הלוגו של האתר לחיץ ומוביל לעמוד הראשי, מומלץ להודיע למשתמש לאן הקישור מוביל "
+"ומהו."
+
+#: inc/acp-panel.php:1129
+msgid ""
+"The fields below will help you to add extra information on the logo link with "
+"the aria-label attribute:"
+msgstr ""
+"שתי האפשרויות שלהלן יעזרו לך להוסיף מידע נוסף לקישור הלוגו באמצעות תכונת aria‪-‬"
+"label."
+
+#: inc/acp-panel.php:1131
+msgid "Write the Logo Identifier. for examplt: <code>#site-logo .logo</code>"
+msgstr "הגדרת הלוגו באמצעות ערך CSS. למשל: <code>#site-logo .logo</code>"
+
+#: inc/acp-panel.php:1149
+msgid ""
+"Write the text that will guide the user. for examplt: <code>This link leads to "
+"the home page</code>"
+msgstr ""
+"הוספת המידע הנוסף לקישור הלוגו. לדוגמה: <code>קישור זה מוביל לעמוד הראשי</code>"
+
+#: inc/acp-panel.php:1167
+msgid "Tag Replacement"
+msgstr "מחליפי תגי HTML"
+
+#: inc/acp-panel.php:1168
+msgid ""
+"In this section you can replace Html tags with a new tag and keep the attributes."
+msgstr "באזור זה ניתן להחליף תגי HTML בתג אחר ולשמור על התכונות והערכים."
+
+#: inc/acp-panel.php:1169
+msgid "For example you can change this:"
+msgstr "לדוגמה ניתן להחליף את זה:"
+
+#: inc/acp-panel.php:1171
+msgid "to this:"
+msgstr "לזה:"
+
+#: inc/acp-panel.php:1173
+msgid ""
+"To do this you need to declare the object(s) and than choose a new tag name from "
+"the dropdown list:"
+msgstr ""
+"כדי לעשות זאת יש צורך להגדיר את האוביקט/ים שתגיהם יוחלפו ואז לבחור את התג החדש "
+"מתוך הרשימה:"
+
+#: inc/acp-panel.php:1174
+msgid "Add New Replacement Tag"
+msgstr "הוספת מחליף תג"
+
+#: inc/acp-panel.php:1176 inc/acp-panel.php:1301
+msgid "Close Replacement tag 1 area"
+msgstr "סגירת מחליף תג 1"
+
+#: inc/acp-panel.php:1177
+msgid "Add the objects you want to affect with the Replacement Tag 1"
+msgstr "הוספת האוביקט/ים שתגיהם יוחלפו (מחליף 1). הגדרת CSS‪:‬"
+
+#: inc/acp-panel.php:1205 inc/acp-panel.php:1267 inc/acp-panel.php:1329
+msgid "Choose the Tag"
+msgstr "בחירת תג"
+
+#: inc/acp-panel.php:1208 inc/acp-panel.php:1270 inc/acp-panel.php:1332
+msgid "Heading 1 Tag"
+msgstr "תג כותרת h1"
+
+#: inc/acp-panel.php:1209 inc/acp-panel.php:1271 inc/acp-panel.php:1333
+msgid "Heading 2 Tag"
+msgstr "תג כותרת h2"
+
+#: inc/acp-panel.php:1210 inc/acp-panel.php:1272 inc/acp-panel.php:1334
+msgid "Heading 3 Tag"
+msgstr "תג כותרת h3"
+
+#: inc/acp-panel.php:1211 inc/acp-panel.php:1273 inc/acp-panel.php:1335
+msgid "Heading 4 Tag"
+msgstr "תג כותרת h4"
+
+#: inc/acp-panel.php:1212 inc/acp-panel.php:1274 inc/acp-panel.php:1336
+msgid "Heading 5 Tag"
+msgstr "תג כותרת h5"
+
+#: inc/acp-panel.php:1213 inc/acp-panel.php:1275 inc/acp-panel.php:1337
+msgid "Heading 6 Tag"
+msgstr "תג כותרת h6"
+
+#: inc/acp-panel.php:1214 inc/acp-panel.php:1276 inc/acp-panel.php:1338
+msgid "Time Tag"
+msgstr "תג time"
+
+#: inc/acp-panel.php:1239
+msgid "Close Replacement tag 2 area"
+msgstr "סגירת מחליף תג 2"
+
+#: inc/acp-panel.php:1240
+msgid "Replacement Tag 2"
+msgstr "מחליף תג 2"
+
+#: inc/acp-panel.php:1302
+msgid "Replacement Tag 3"
+msgstr "מחליף תג 3"
+
+#: inc/acp-panel.php:1342
+msgid "Need More than 3 replacement tags?"
+msgstr "צריך יותר משלושה מחליפי תג?"
+
+#: inc/acp-panel.php:1343
+msgid ""
+"Want to have the ability to replace with any tag you want and with unlimited "
+"replacements?"
+msgstr "רוצה להחליף תגים ללא הגבלה מאיזה תג שבא לך לאיזה תג שבא לך?"
+
+#: inc/acp-toolbar.php:31
+msgid "Toggle accessibility toolbar"
+msgstr "שינוי תצוגת סרגל כלי הנגישות"
+
+#: inc/acp-toolbar.php:40
+msgid "Close the accessibility toolbar"
+msgstr "סגירת סרגל כלי הנגישות"
+
+#: inc/acp-toolbar.php:65
+msgid "Decrease font size"
+msgstr "הקטנת גופן"
+
+#: inc/acp-toolbar.php:69
+msgid "Increase font size"
+msgstr "הגדלת גופן"
+
+#: inc/acp-toolbar.php:72 inc/acp-toolbar.php:84
+msgid "Back to original"
+msgstr "בחזרה למקור"
+
+#: inc/acp-toolbar.php:77
+msgid "Dark contrast"
+msgstr "ניגודיות כהה"
+
+#: inc/acp-toolbar.php:81
+msgid "Bright contrast"
+msgstr "ניגודיות בהירה"
+
+#: inc/acp-toolbar.php:122
+msgid "Highlight Links"
+msgstr "הדגשת קישורים"
+
+#: inc/acp-toolbar.php:131
+msgid "Links Underline"
+msgstr "קו תחתון לקישורים"
+
+#: inc/acp-toolbar.php:143 inc/acp-toolbar.php:226
+msgid "Fonts"
+msgstr "גופנים"
+
+#: inc/acp-toolbar.php:144
+msgid "Readable Font"
+msgstr "גופן קריא"
+
+#: inc/acp-toolbar.php:149 inc/acp-toolbar.php:230
+msgid "Animations"
+msgstr "אנימציות"
+
+#: inc/acp-toolbar.php:150
+msgid "Disable Animations"
+msgstr "ביטול אנימציות"
+
+#: inc/acp-toolbar.php:171
+msgid "Accessibility Declaration"
+msgstr "הצהרת נגישות"
+
+#: inc/acp-toolbar.php:180
+msgid "Contact Us"
+msgstr "השארת משוב"
+
+#: inc/acp-toolbar.php:208
+msgid "Accessibilily Toolbar"
+msgstr "סרגל כלי נגישות"
+
+#: inc/acp-toolbar.php:214
+msgid "Font Size"
+msgstr "גודל גופן"
+
+#: inc/acp-toolbar.php:218
+msgid "Color contrast"
+msgstr "ניגודיות הצבע"
+
+#: inc/acp_imagealt.php:41
+msgid "Missing ALT's"
+msgstr "תכונות ALT חסרות"
+
+#: inc/acp_imagealt.php:45
+msgid "ID"
+msgstr "מזהה"
+
+#: inc/acp_imagealt.php:46
+msgid "Thumbnail"
+msgstr "תמונה ממוזערת"
+
+#: inc/acp_imagealt.php:47
+msgid "Image Name"
+msgstr "שם התמונה"
+
+#: inc/acp_imagealt.php:48
+msgid "Actions"
+msgstr "פעולות"
+
+#: inc/acp_imagealt.php:57
+msgid "Thumbnail of"
+msgstr "תמונה של"
+
+#: inc/acp_imagealt.php:61
+msgid "Add Alt"
+msgstr "הוספת טקסט חלופי"
+
+#: inc/acp_imagealt.php:68
+msgid "Congratulation! You don't have images without ALT text."
+msgstr "כל הכבוד! אין לך תמונות ללא טקסט חלופי."
+
+#: inc/acp_skiplinks.php:10
+msgid "Homepage Skiplinks"
+msgstr "קישורי דילוג ייחודיים לעמוד הראשי"

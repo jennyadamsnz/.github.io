@@ -1,0 +1,188 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700italic";
+@import "https://fonts.googleapis.com/css?family=Assistant:300,400,600,700,800&subset=hebrew";
+#acp-toolbar-close {
+  right: 5px;
+  padding: 0;
+  margin: 0;
+  appearance: normal;
+  -webkit-appearance: none;
+  border: 0;
+  background-color: transparent;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  font-weight: 400;
+}
+
+#acp-toggle-toolbar {
+  cursor: pointer;
+  position: fixed;
+  z-index: 1000000000010;
+}
+
+#acp-toolbar {
+  position: fixed;
+  z-index: 1000000000010;
+  overflow: auto;
+}
+#acp-toolbar .acp-btn-reset {
+  display: none;
+}
+
+body.acp-readable .acp-toolbar-label,
+body.acp-marklinks .acp-toolbar-label,
+body.acp-dark .acp-toolbar-label,
+body.acp-bright .acp-toolbar-label,
+.acp-toolbar-label {
+  display: block;
+}
+@media (min-width: 320px) and (max-height: 768px) {
+  body.acp-readable .acp-toolbar-label,
+  body.acp-marklinks .acp-toolbar-label,
+  body.acp-dark .acp-toolbar-label,
+  body.acp-bright .acp-toolbar-label,
+  .acp-toolbar-label {
+    margin: 3px 0 2px;
+  }
+}
+
+.acp-toolbar-btn {
+  text-decoration: none;
+}
+
+body.acp-dark {
+  background-color: black !important;
+  color: white !important;
+}
+body.acp-dark * {
+  background-color: black !important;
+  color: white !important;
+}
+body.acp-dark button *,
+body.acp-dark button,
+body.acp-dark a *,
+body.acp-dark a {
+  color: #ffea56 !important;
+}
+body.acp-dark button *:before, body.acp-dark button *:after,
+body.acp-dark button:before,
+body.acp-dark button:after,
+body.acp-dark a *:before,
+body.acp-dark a *:after,
+body.acp-dark a:before,
+body.acp-dark a:after {
+  content: none !important;
+}
+body.acp-dark button:not(.acp-active) {
+  color: #ffea56 !important;
+  border: 1px solid #ffea56 !important;
+}
+body.acp-dark .material-icons {
+  background-color: transparent;
+}
+body.acp-dark ::-webkit-input-placeholder {
+  color: white !important;
+}
+body.acp-dark ::-moz-placeholder {
+  color: white !important;
+}
+body.acp-dark :-moz-placeholder {
+  color: white !important;
+}
+body.acp-dark :-ms-input-placeholder {
+  color: white !important;
+}
+body.acp-dark input {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+body.acp-dark input:focus {
+  outline: 1px solid #ffea56 !important;
+}
+
+body.acp-bright {
+  background-color: white !important;
+  color: #252c33 !important;
+}
+body.acp-bright * {
+  background-color: white !important;
+  color: #252c33 !important;
+}
+body.acp-bright button, body.acp-bright button > *, body.acp-bright button > span, body.acp-bright button > i,
+body.acp-bright a, body.acp-bright a > *, body.acp-bright a > span, body.acp-bright a > i {
+  color: #3333ff !important;
+}
+body.acp-bright img {
+  -webkit-filter: grayscale(100%);
+  /* Chrome, Safari, Opera */
+  filter: grayscale(100%);
+}
+body.acp-bright button:not(.acp-active) {
+  color: #3333ff !important;
+  border: 1px solid #3333ff !important;
+}
+body.acp-bright .material-icons {
+  background-color: transparent;
+}
+body.acp-bright ::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+body.acp-bright ::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+body.acp-bright :-moz-placeholder {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+body.acp-bright :-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.75) !important;
+}
+body.acp-bright input {
+  border: 1px solid rgba(0, 0, 0, 0.75);
+}
+body.acp-bright input:focus {
+  outline: 1px solid #3333ff !important;
+}
+
+body.acp-animation * {
+  transition: none !important;
+  -o-transition: none !important;
+  -ms-transition: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+}
+
+body.acp-underline a, body.acp-underline a:hover, body.acp-underline a:focus, body.acp-underline button, body.acp-underline button:hover, body.acp-underline button:focus {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+body.acp-marklinks a, body.acp-marklinks a:hover, body.acp-marklinks a:focus, body.acp-marklinks a *,
+body.acp-marklinks button, body.acp-marklinks button:hover, body.acp-marklinks button:focus {
+  background: #3333ff !important;
+  background-color: #3333ff !important;
+  color: white !important;
+}
+body.acp-marklinks a i.material-icons, body.acp-marklinks a:hover i.material-icons, body.acp-marklinks a:focus i.material-icons, body.acp-marklinks a * i.material-icons,
+body.acp-marklinks button i.material-icons, body.acp-marklinks button:hover i.material-icons, body.acp-marklinks button:focus i.material-icons {
+  color: white !important;
+}
+body.acp-marklinks.acp-dark a, body.acp-marklinks.acp-dark a:hover, body.acp-marklinks.acp-dark a:focus, body.acp-marklinks.acp-dark a *,
+body.acp-marklinks.acp-dark button, body.acp-marklinks.acp-dark button:hover, body.acp-marklinks.acp-dark button:focus, body.acp-marklinks.acp-dark button.acp-active {
+  background: rgba(255, 234, 86, 0.85) !important;
+  background-color: rgba(255, 234, 86, 0.85) !important;
+  color: #252c33 !important;
+}
+body.acp-marklinks.acp-dark .acp-toolbar-btn[disabled] {
+  background: black !important;
+  background-color: black !important;
+  color: white !important;
+}
+body.acp-marklinks.acp-dark .acp-toolbar-btn[disabled] i.material-icons {
+  color: white !important;
+}
+body.acp-marklinks.acp-bright a, body.acp-marklinks.acp-bright a:hover, body.acp-marklinks.acp-bright a:focus, body.acp-marklinks.acp-bright a *,
+body.acp-marklinks.acp-bright button, body.acp-marklinks.acp-bright button:hover, body.acp-marklinks.acp-bright button:focus {
+  background: #3333ff !important;
+  background-color: #3333ff !important;
+  color: white !important;
+}
