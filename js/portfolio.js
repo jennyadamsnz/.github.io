@@ -302,6 +302,6 @@
                 // });  
                 $("#email").click(function() {
                     $('.contactDetails').text("jennyadamsnz@gmail.com");
-                });                       
+                });                        
             };
    
