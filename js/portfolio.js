@@ -301,7 +301,7 @@
                 //     }    
                 // });  
                 $("#email").click(function() {
-                    $('.contactDetails').text("jennyleighadams@gmail.com");
+                    $('.contactDetails').text("jennyadamsnz@gmail.com");
                 });                       
             };
    
