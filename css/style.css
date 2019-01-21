@@ -2,26 +2,26 @@
 	margin: 0;
 	padding: 0;
 }
-	/* MOBILE */ 
+	/* MOBILE */
 body {
 	background: white;
 }
 header {
  	padding: 40px 0px 30px 0px;
-} 
+}
 .main_container {
-	width: 100%; 
-	margin: 0 auto; 
+	width: 100%;
+	margin: 0 auto;
 	margin-top: 50px;
-}   
+}
 .inner_container {
 	width: 100%;
-	margin: 0 auto; 
+	margin: 0 auto;
 	margin-top: 50px;
 	background-color: white;
-}   
+}
 h1 {
-	color: rgb(14,17,17);	
+	color: rgb(14,17,17);
 	font-size: 25px;
 	letter-spacing: 7px;
 	text-align: center;
@@ -29,7 +29,7 @@ h1 {
 	width: 90%;
 	display: block;
 	font-family: 'Megrim', helvetica;
-}   
+}
 .des {
 	font-family: 'Palanquin Dark', sans-serif;
     line-height: 38px;
@@ -37,23 +37,23 @@ h1 {
     width: 90%;
     margin-left: 5%;
     font-size: 28px;
-    letter-spacing: 3px;	 
+    letter-spacing: 3px;
 }
 .fa {
-	color: rgba(14,17,17,0.9);	
-	font-size: 35px; 
+	color: rgba(14,17,17,0.9);
+	font-size: 35px;
 	text-align: right;
 	display: inline-block;
 	padding: 20px 0px;
-} 
+}
 .fa-linkedin-square:hover {
 	color: #0077B5;
 }
 .fa-github:hover {
 	color: #5e237f;
-}	
-.fa-file-text:hover { 
-	color: #30a40e;	
+}
+.fa-file-text:hover {
+	color: #30a40e;
 }
 .fa-phone-square:hover {
 	color: #004587;
@@ -68,7 +68,7 @@ h1 {
 .fa-envelope-square, .fa-phone-square {
 	padding-right: 15px;
 }
-.fa-file-text {   
+.fa-file-text {
 	font-size: 30px !important;
 	vertical-align: top !important;
 	padding-top: 22px !important;
@@ -80,7 +80,7 @@ h1 {
 	margin: 0 auto;
 }
 .div_1, .div_2, .div_3, .div_4 {
-	width: 100%;	
+	width: 100%;
 	height: 100%;
 	box-sizing: border-box;
 	display: block;
@@ -88,7 +88,7 @@ h1 {
 }
 img {
 	width: 100%;
-	vertical-align: top;	
+	vertical-align: top;
 	z-index: 1;
 }
 .overlay {
@@ -110,10 +110,10 @@ img {
   text-align: center;
   right: 0;
   height: 65%;
-  width: 100%; 
+  width: 100%;
   opacity: 0;
   transition: .6s ease;
-} 
+}
 button {
 	padding: 5% 10%;
 	background-color: rgba(255,255,255,0.1);
@@ -135,9 +135,9 @@ h4 {
 	padding-bottom: 10px;
 }
 h4, .details {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Fort', sans-serif;
 	color: rgba(255,255,255,0.9);
-	font-weight: bold;
+	font-weight: lighter;
 	padding-left: 15%;
 	letter-spacing: 1.8px;
 	opacity: .8;
@@ -156,7 +156,7 @@ h4 {
 	text-align: right;
 	display: block;
 }
-@media screen and (min-width: 300px) {	
+@media screen and (min-width: 300px) {
 	h4 {
 		font-size: 16px;
 	}
@@ -164,29 +164,29 @@ h4 {
 		font-size: 13px;
 	}
 }
-@media screen and (min-width: 350px) {	
+@media screen and (min-width: 350px) {
 /*	.phone, .email {
 		display: none;
 	}
 	.connect_div {
 		width: 120px;
-	}*/	
+	}*/
 }
-@media screen and (min-width: 550px) {	
+@media screen and (min-width: 550px) {
 	h1 {
-		text-align: left;	
+		text-align: left;
 	}
 	.connect_div {
 		position: absolute;
 		top: 18px;
-		right: 5%;	
+		right: 5%;
 	}
 	.main_container {
 		width: 100%;
 	}
 	.div_1, .div_2, .div_3, .div_4 {
 		display: inline-block;
-		width: 50%;	
+		width: 50%;
 	}
 	.des {
 		width: 75%;
@@ -198,7 +198,7 @@ h4 {
 
 	/* IPAD */
 
-@media screen and (min-width: 768px) {	
+@media screen and (min-width: 768px) {
 	.des {
 		width: 65%;
 		font-size: 40px;
@@ -211,28 +211,28 @@ h4 {
 	}
 	.details {
 		font-size: 15px;
-	}	
+	}
 }
 
 	/* LAPTOP */
-@media screen and (min-width: 1000px) {	
+@media screen and (min-width: 1000px) {
 	.des {
 		width: 60%;
 		font-size: 50px;
 		line-height: 45px;
 		margin-top: 5%;
 	}
-}	
-@media screen and (min-width: 1200px) {	
+}
+@media screen and (min-width: 1200px) {
 	.main_container {
 		width: 100%;
 		margin-top: 80px;
 	}
 	.inner_container {
 		margin-top: 80px;
-	}	
+	}
 	.div_1, .div_2, .div_3, .div_4 {
-		width: 25%;	
+		width: 25%;
 	}
 	.des {
 		margin-bottom: 9%;
@@ -242,22 +242,22 @@ h4 {
 	}
 	.details {
 		font-size: 13px;
-	}	
-}			
+	}
+}
 
 	/* DESKTOP */
 
-@media screen and (min-width: 1300px) {	
+@media screen and (min-width: 1300px) {
 	.inner_container {
 		margin-top: 140px;
-	}	
+	}
 }
 
-@media screen and (min-width: 1500px) {	
+@media screen and (min-width: 1500px) {
 	h4 {
 		font-size: 20px;
 	}
 	.details {
 		font-size: 15px;
-	}	
+	}
 }
