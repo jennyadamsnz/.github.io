@@ -7,31 +7,45 @@ body {
 	background: white;
 }
 header {
- 	padding: 40px 0px 30px 0px;
+	 padding: 40px 0px 30px 0px;
+
+
 }
 .main_container {
 	width: 100%;
-	margin: 0 auto;
-	margin-top: 50px;
+	margin: 50px auto;
 }
 .inner_container {
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 50px;
 	background-color: white;
 }
+
 h1 {
 	color: rgb(14,17,17);
-	font-size: 25px;
-	letter-spacing: 7px;
 	text-align: center;
 	margin-left: 5%;
 	width: 90%;
 	display: block;
-	font-family: 'Megrim', helvetica;
+	line-height: 76px;
 }
-.des {
+
+.type--info {
+	font-size: 35px;
 	font-family: 'Palanquin Dark', sans-serif;
+}
+
+.type--centre {
+	text-align: center;
+}
+
+.type--brand {
+	font-family: 'Megrim', helvetica;
+	font-size: 25px;
+	letter-spacing: 7px;
+}
+
+.des {
     line-height: 38px;
     color: rgb(14,17,17);
     width: 90%;
@@ -74,11 +88,17 @@ h1 {
 	padding-top: 22px !important;
 }
 
-.connect_div {
+.connect_header {
 	width: 210px;
 	display: block;
 	margin: 0 auto;
 }
+
+.connect_footer {
+	width: 210px;
+	margin: 0 auto 50px auto;
+}
+
 .div_1, .div_2, .div_3, .div_4 {
 	width: 100%;
 	height: 100%;
@@ -148,6 +168,9 @@ h4 {
 .details {
 	font-size: 11px;
 }
+.details--italic {
+	font-style: italic;
+}
 .contactDetails {
 	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
@@ -164,22 +187,18 @@ h4 {
 		font-size: 13px;
 	}
 }
-@media screen and (min-width: 350px) {
-/*	.phone, .email {
-		display: none;
-	}
-	.connect_div {
-		width: 120px;
-	}*/
-}
 @media screen and (min-width: 550px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+		margin: 0;
+	}
 	h1 {
 		text-align: left;
+		max-width: 50%;
 	}
-	.connect_div {
-		position: absolute;
-		top: 18px;
-		right: 5%;
+	.connect_header {
+		margin-right: 5%;
 	}
 	.main_container {
 		width: 100%;
@@ -192,13 +211,16 @@ h4 {
 		width: 75%;
 		margin-top: 6%;
 		margin-bottom: 10%;
-		font-size: 35px;
 	}
 }
 
 	/* IPAD */
 
 @media screen and (min-width: 768px) {
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
 	.des {
 		width: 65%;
 		font-size: 40px;
@@ -227,9 +249,7 @@ h4 {
 	.main_container {
 		width: 100%;
 		margin-top: 80px;
-	}
-	.inner_container {
-		margin-top: 80px;
+		margin-bottom: 80px;
 	}
 	.div_1, .div_2, .div_3, .div_4 {
 		width: 25%;
@@ -248,8 +268,9 @@ h4 {
 	/* DESKTOP */
 
 @media screen and (min-width: 1300px) {
-	.inner_container {
+	.main_container {
 		margin-top: 140px;
+		margin-bottom: 140px;
 	}
 }
 
